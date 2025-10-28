@@ -1,13 +1,11 @@
-paths:
-  mesh_dir: /bigwork/nhgnheid/EU_data_V3/Train
-  json_dir : /bigwork/nhgnheid/H3D_orderdL/face_feature_val
-  texture_dir : /bigwork/nhgnheid/EU_data_V3/Train_texture
-  log_dir: /bigwork/nhgnheid/log_nomeformer/log1-7
-  checkpoint_dir: /bigwork/nhgnheid/CVPR_2026_EX/EU_V3/Ex_7
-  val_mesh_dir: /bigwork/nhgnheid/EU_data_V3/Val
-  val_json_dir : /bigwork/nhgnheid/H3D_orderdL/face_feature_val
-  val_texture_dir : /bigwork/nhgnheid/EU_data_V3/Train_texture
+Paths:
+  mesh_dir: /Data/LaNau_V3/Train
+  texture_dir: /Data/LaNau_V3/Train_texture
+  val_mesh_dir: /Data/LaNau_V3/Val
+  val_texture_dir: /Data/LaNau_V3/Val_texture
   ignore_index: -1
+  log_dir: /Data/LaNau_V3/log
+  checkpoint_dir: /Data/LaNau_V3/Training_Results
 training:
   epochs: 200
   batch_size: 1
