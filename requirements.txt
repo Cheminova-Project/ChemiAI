@@ -1,0 +1,37 @@
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+tensorboard>=2.13.0
+
+# Mesh Processing
+trimesh>=3.23.0
+networkx>=2.8.0  # Required by trimesh
+
+# Numerical Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+
+# Metrics and Evaluation
+pytorch-ignite>=0.4.11
+torchmetrics>=1.0.0
+
+# Configuration
+pyyaml>=6.0
+
+# Progress Bars
+tqdm>=4.65.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Utilities
+glob2>=0.7  # For advanced file pattern matching
+
+# Optional: For better performance
+# ninja>=1.11.0  # For faster PyTorch compilation
+# einops>=0.6.0  # For advanced tensor operations
+
+

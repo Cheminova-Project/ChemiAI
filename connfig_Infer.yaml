@@ -1,0 +1,21 @@
+paths:
+  test_mesh_dir: /bigwork/nhgnheid/EU_data_V3/Test
+  test_json_dir: /bigwork/nhgnheid/H3D_orderdL/face_feature_val
+  test_texture_dir: /bigwork/nhgnheid/EU_data_V3/Test_texture
+  checkpoint_path: /bigwork/nhgnheid/CVPR_2026_EX/EU_V3/Ex_6/checkpoint_epoch82_f1_0.5048.pth
+  prediction_out_path: /bigwork/nhgnheid/CVPR_2026_EX/EU_V3/Test/output
+  ignore_index: -1
+model:
+  feature_dim: 16
+  embedding_dim: 64
+  num_heads: 1
+  num_attention_blocks: 4
+  n_classes: 8
+  n_clusters: 300
+  dropout: 0.0
+  clusters_per_batch: 30
+  batch_size: 1
+
+
+
+
